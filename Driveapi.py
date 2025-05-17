@@ -7,7 +7,7 @@ from googleapiclient.http import MediaIoBaseUpload # Corrected import
 from google.oauth2 import service_account
 
 def addtodrive(html,company, title):
-    FolderID = "14CLpWbbcbFNCQCKSJk7riYasMIzp6WuA"
+    FolderID = "Enter folder ID here" #can be found be url of folder ID
     SCOPES = [ 
         'https://www.googleapis.com/auth/documents',
         'https://www.googleapis.com/auth/drive'
