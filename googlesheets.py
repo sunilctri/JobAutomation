@@ -8,12 +8,12 @@ def uploadtoworksheet(new_row):
         "https://www.googleapis.com/auth/spreadsheets"
     ]
 
-    creds = Credentials.from_service_account_file("resumeapi-458801-7777b8f2097a.json",
+    creds = Credentials.from_service_account_file("Credentials.json",
                                               scopes = scopes)
     client = gspread.authorize(creds)
 
-    sheetsid = "1BtdU27JAhg2XU4JnFCak1TqRwR8Ea3bowBbuk6flqOY"
-    sheetname = "Database"
+    sheetsid = "SheetsID" #from the url of google sheeets
+    sheetname = "Database" #exact name of the database
 
     sheet = client.open_by_key(sheetsid)
     worksheet = sheet.worksheet(sheetname)
