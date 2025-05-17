@@ -1,4 +1,4 @@
-![]()
+![](CoverTemplete.PNG)
 # JobAutomation
 
 Automate your job search with ease! This Python-based personal project scrapes LinkedIn job listings, tailors resumes using Google Gemini, and logs everything neatly into Google Sheets for streamlined tracking and record keeping.
