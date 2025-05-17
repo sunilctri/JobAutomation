@@ -17,7 +17,7 @@ resume_md = openmarkdownfile("resume.md")
 def gemini(description):
     from google import genai
     # Hide the API key
-    client = genai.Client(api_key="AIzaSyARXDqLfAEKI5RjniY372EAAzKzdwo5f7E")
+    client = genai.Client(api_key="GEMINI KEY")
 
     response = client.models.generate_content(
     model="gemini-2.5-flash-preview-04-17",
