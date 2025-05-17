@@ -10,7 +10,7 @@ Automate your job search with ease! This Python-based personal project scrapes L
 - **Job Scraping**: Automatically extract the latest job postings from LinkedIn using BeautifulSoup.  
 - **Resume Customization**: Leverage Google Gemini's powerful language model to tailor resumes specifically for each job.  
 - **Google Drive Integration**: Upload your tailored resumes and related documents directly to Google Drive.  
-- **Centralized Tracking**: All job applications, statuses, and metadata are logged in Google Sheets for easy monitoring and follow-up.  
+- **Centralized Tracking**: All job applications, statuses logged in Google Sheets for easy monitoring and follow-up.  
 
 ---
 
